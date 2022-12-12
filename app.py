@@ -38,7 +38,7 @@ def activity(pName,pUrl):
         jsonR = json.loads(data.content)
         time.sleep(2)
         jsonResponse[pName] = jsonR
-    except:
+    except: 
         pass
 
 if __name__ == "__main__":
